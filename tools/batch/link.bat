@@ -1,0 +1,1 @@
+.\tools\i686-elf-tools-windows\bin\i686-elf-g++.exe -T ./src/linker/linker.ld -o ./bin/os.bin -ffreestanding -O2 -nostdlib ./bin/tmp/boot.o ./bin/tmp/kernel.o -lgcc

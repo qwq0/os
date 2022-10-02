@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/tools/i686-elf-tools-windows/lib/gcc/i686-elf/7.1.0/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "__STDC_HOSTED__=0"
+            ],
+            "windowsSdkVersion": "10.0.17763.0",
+            "compilerPath": "${workspaceFolder}/tools/i686-elf-tools-windows/bin/i686-elf-g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x86"
+        }
+    ],
+    "version": 4
+}

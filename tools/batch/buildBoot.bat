@@ -1,0 +1,1 @@
+.\tools\i686-elf-tools-windows\bin\i686-elf-as.exe ./src/boot/boot.s -o ./bin/tmp/boot.o
