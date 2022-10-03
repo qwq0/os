@@ -51,7 +51,7 @@
 .section .bss
 .align 16
 stack_bottom:
-.skip 16384 /* 16 KiB 栈空间 */
+.skip 2 * 1024 * 1024 /* 2MB 栈空间 */
 stack_top:
  
 /*
@@ -161,7 +161,7 @@ _start:
 	jmp 1b
  
 /*
-    将 _start 符号的大小设置为当前位置 '.'减去它的开始。
+    将 _start 符号的大小设置为 当前位置'.' 减去它的开始。
     这在调试或实现调用跟踪时很有用。
     Set the size of the _start symbol to the current location '.' minus its start.
     This is useful when debugging or when you implement call tracing.
